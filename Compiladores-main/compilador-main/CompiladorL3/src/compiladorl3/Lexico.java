@@ -114,7 +114,7 @@ public class Lexico {
 
                     } else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '%') {
                         lexema.append(c);
-                        estado = 9;
+                        return new Token(lexema.toString(), Token.TIPO_OPERADOR_ARITMETICO);
 
                     } else if (c == '$') {
                         lexema.append(c);
@@ -203,9 +203,6 @@ public class Lexico {
 
                 case 9:
                     if (this.operadorAritmetico(c)) {
-                        lexema.append(c);
-                        estado = 9;
-                    } else {
                         this.back();
                         return new Token(lexema.toString(), Token.TIPO_OPERADOR_ARITMETICO);
                     }
