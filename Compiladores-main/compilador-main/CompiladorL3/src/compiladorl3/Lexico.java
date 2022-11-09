@@ -110,8 +110,6 @@ public class Lexico {
                         lexema.append(c);
                         estado = 7;
 
-                        // Falta fazer <= e >=
-
                     } else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '%') {
                         lexema.append(c);
                         return new Token(lexema.toString(), Token.TIPO_OPERADOR_ARITMETICO);
