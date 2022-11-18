@@ -1,5 +1,5 @@
 # Compiladores #
 
-## Disciplina de Compiladores ##
+## Analise Sintatica 2.0 ##
 
-- Equipe: Valmir Junior e Guilherme Belian
+- Equipe: Valmir Junior / Guilherme Belian
