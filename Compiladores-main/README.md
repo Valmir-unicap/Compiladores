@@ -1,6 +1,6 @@
 # Compiladores #
 
-## Análise Sintatica ##
+## Análise Sintatica 1.0 ##
 
 #### Disciplina de Compiladores ####
 
