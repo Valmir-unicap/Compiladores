@@ -1,0 +1,26 @@
+int main(){
+	int a;
+	int b;
+	int a;
+	a = 1.1;	
+} 	
+$
+
+Teste 9: 
+int main(){
+	int a;
+	while(1 == 1)
+	{
+		int a;
+	}
+}	0
+Não distinguiu variáveis em escopos diferentes.
+
+Teste 10: 
+int main(){
+	int a;
+	float b;
+	b = 1;	
+	a = 1.1;
+}	0
+$
