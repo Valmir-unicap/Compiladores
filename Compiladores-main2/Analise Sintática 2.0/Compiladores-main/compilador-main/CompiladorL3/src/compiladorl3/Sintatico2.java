@@ -265,6 +265,7 @@ public class Sintatico2 {
             this.AC(); // Abre chave
             this.FC(); // Fecha chave
     } else if (this.token.getLexema().equals("}") && this.token.getLexema().equals("else")) {
+            // } else if (this.token.getLexema().equals("else")) {
             this.token = this.lexico.nextToken();
 
             /* Se o próximo token tiver o lexema "if", reconhecer comando
